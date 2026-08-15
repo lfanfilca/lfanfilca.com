@@ -1,0 +1,38 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+.pnp.*
+.yarn/
+
+# Build
+dist/
+build/
+.cache/
+
+# Logs
+*.log
+
+# Env
+.env
+.env.*
+!.env.example
+
+# Large generated assets (uncomment if you want to ignore binaries)
+# images/*.png
+# images/*.jpg
+
+# SPEC files (project brief)
+SPEC.txt

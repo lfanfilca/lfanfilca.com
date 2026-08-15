@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Game publishing">
+  <defs>
+    <linearGradient id="game-g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF6B9D"/>
+      <stop offset="100%" stop-color="#A855F7"/>
+    </linearGradient>
+  </defs>
+  <path d="M14 22 Q8 22 8 32 L8 42 Q8 50 16 50 L20 50 Q24 50 26 46 L28 42 L36 42 L38 46 Q40 50 44 50 L48 50 Q56 50 56 42 L56 32 Q56 22 50 22 Z" fill="url(#game-g)"/>
+  <circle cx="18" cy="34" r="2.4" fill="#fff"/>
+  <circle cx="22" cy="36" r="1.6" fill="#fff"/>
+  <circle cx="22" cy="32" r="1.6" fill="#fff"/>
+  <rect x="40" y="32" width="10" height="3" rx="1.4" fill="#fff"/>
+  <rect x="43.5" y="29" width="3" height="9" rx="1.4" fill="#fff"/>
+  <circle cx="32" cy="36" r="2" fill="#FBBF24"/>
+</svg>

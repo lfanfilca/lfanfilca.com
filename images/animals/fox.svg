@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Cute fox mascot">
+  <defs>
+    <radialGradient id="fox-fur" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#FFB47A"/>
+      <stop offset="100%" stop-color="#E0732B"/>
+    </radialGradient>
+    <linearGradient id="fox-belly" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF5E6"/>
+      <stop offset="100%" stop-color="#FFE2BD"/>
+    </linearGradient>
+  </defs>
+  <!-- Tail -->
+  <g transform="translate(150 130)">
+    <path d="M0 0 Q40 -20 60 0 Q40 30 0 0 Z" fill="url(#fox-fur)"/>
+    <ellipse cx="50" cy="0" rx="14" ry="10" fill="#FFF5E6"/>
+  </g>
+  <!-- Body -->
+  <ellipse cx="100" cy="140" rx="55" ry="40" fill="url(#fox-fur)"/>
+  <ellipse cx="100" cy="150" rx="32" ry="22" fill="url(#fox-belly)"/>
+  <!-- Head -->
+  <g transform="translate(100 90)">
+    <!-- Ears -->
+    <path d="M-30 -30 L-20 -55 L-5 -35 Z" fill="url(#fox-fur)"/>
+    <path d="M30 -30 L20 -55 L5 -35 Z" fill="url(#fox-fur)"/>
+    <path d="M-27 -33 L-20 -50 L-10 -36 Z" fill="#FF8FA3"/>
+    <path d="M27 -33 L20 -50 L10 -36 Z" fill="#FF8FA3"/>
+    <!-- Face -->
+    <ellipse cx="0" cy="0" rx="35" ry="32" fill="url(#fox-fur)"/>
+    <ellipse cx="0" cy="14" rx="18" ry="14" fill="url(#fox-belly)"/>
+    <!-- Eyes -->
+    <ellipse cx="-12" cy="-2" rx="5" ry="6" fill="#1f0b2b"/>
+    <ellipse cx="12" cy="-2" rx="5" ry="6" fill="#1f0b2b"/>
+    <circle cx="-10" cy="-4" r="1.6" fill="#fff"/>
+    <circle cx="14" cy="-4" r="1.6" fill="#fff"/>
+    <!-- Cheeks -->
+    <circle cx="-20" cy="8" r="4" fill="#FF8FA3" opacity="0.7"/>
+    <circle cx="20" cy="8" r="4" fill="#FF8FA3" opacity="0.7"/>
+    <!-- Nose -->
+    <ellipse cx="0" cy="8" rx="3" ry="2.2" fill="#1f0b2b"/>
+    <!-- Mouth -->
+    <path d="M-6 14 Q0 18 6 14" stroke="#1f0b2b" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+  </g>
+  <!-- Paws -->
+  <ellipse cx="78" cy="172" rx="10" ry="6" fill="#E0732B"/>
+  <ellipse cx="122" cy="172" rx="10" ry="6" fill="#E0732B"/>
+</svg>

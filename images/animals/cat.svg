@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Cute cat mascot">
+  <defs>
+    <linearGradient id="cat-fur" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F1F5F9"/>
+      <stop offset="100%" stop-color="#CBD5E1"/>
+    </linearGradient>
+    <linearGradient id="cat-belly" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F1F5F9"/>
+    </linearGradient>
+  </defs>
+  <!-- Tail -->
+  <path d="M150 150 Q190 100 170 60" stroke="url(#cat-fur)" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <!-- Body -->
+  <ellipse cx="100" cy="140" rx="50" ry="38" fill="url(#cat-fur)"/>
+  <ellipse cx="100" cy="148" rx="28" ry="20" fill="url(#cat-belly)"/>
+  <!-- Head -->
+  <g transform="translate(100 88)">
+    <path d="M-32 -22 L-24 -48 L-8 -30 Z" fill="url(#cat-fur)"/>
+    <path d="M32 -22 L24 -48 L8 -30 Z" fill="url(#cat-fur)"/>
+    <path d="M-28 -26 L-24 -42 L-14 -30 Z" fill="#FF8FA3"/>
+    <path d="M28 -26 L24 -42 L14 -30 Z" fill="#FF8FA3"/>
+    <ellipse cx="0" cy="0" rx="34" ry="30" fill="url(#cat-fur)"/>
+    <ellipse cx="0" cy="12" rx="16" ry="12" fill="url(#cat-belly)"/>
+    <!-- Eyes (closed happy) -->
+    <path d="M-16 -2 Q-10 -8 -4 -2" stroke="#1f0b2b" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+    <path d="M4 -2 Q10 -8 16 -2" stroke="#1f0b2b" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+    <!-- Cheeks -->
+    <circle cx="-22" cy="6" r="4" fill="#FF8FA3" opacity="0.6"/>
+    <circle cx="22" cy="6" r="4" fill="#FF8FA3" opacity="0.6"/>
+    <!-- Nose -->
+    <path d="M-2 6 L2 6 L0 10 Z" fill="#FF6B9D"/>
+    <!-- Mouth -->
+    <path d="M-4 12 Q0 16 4 12" stroke="#1f0b2b" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+    <!-- Whiskers -->
+    <line x1="-20" y1="10" x2="-32" y2="8" stroke="#94A3B8" stroke-width="1.2"/>
+    <line x1="-20" y1="14" x2="-32" y2="16" stroke="#94A3B8" stroke-width="1.2"/>
+    <line x1="20" y1="10" x2="32" y2="8" stroke="#94A3B8" stroke-width="1.2"/>
+    <line x1="20" y1="14" x2="32" y2="16" stroke="#94A3B8" stroke-width="1.2"/>
+  </g>
+  <!-- Paws -->
+  <ellipse cx="78" cy="172" rx="10" ry="6" fill="#CBD5E1"/>
+  <ellipse cx="122" cy="172" rx="10" ry="6" fill="#CBD5E1"/>
+</svg>

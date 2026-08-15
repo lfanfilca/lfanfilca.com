@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Sparkle decoration">
+  <defs>
+    <linearGradient id="sp-g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBBF24"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+  </defs>
+  <path d="M32 4 L36 24 L56 28 L36 32 L32 56 L28 32 L8 28 L28 24 Z" fill="url(#sp-g)"/>
+  <path d="M50 8 L52 14 L58 16 L52 18 L50 24 L48 18 L42 16 L48 14 Z" fill="#FCD34D"/>
+  <path d="M10 44 L11 48 L15 49 L11 50 L10 54 L9 50 L5 49 L9 48 Z" fill="#FCD34D"/>
+</svg>

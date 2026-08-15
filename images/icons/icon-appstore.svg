@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="App Store">
+  <defs>
+    <linearGradient id="as-g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A78BFA"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="url(#as-g)"/>
+  <path d="M32 18 Q40 18 40 26 Q40 32 34 34 L40 46 Q41 48 39 48 L36 48 Q35 48 34 46 L30 38 L26 46 Q25 48 24 48 L21 48 Q19 48 20 46 L26 34 Q20 32 20 26 Q20 18 28 18 Z" fill="#fff"/>
+  <circle cx="32" cy="48" r="1.4" fill="#fff"/>
+</svg>

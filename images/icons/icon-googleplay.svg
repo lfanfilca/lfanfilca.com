@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Google Play">
+  <defs>
+    <linearGradient id="gp-blue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34A853"/>
+      <stop offset="100%" stop-color="#0F9D58"/>
+    </linearGradient>
+  </defs>
+  <path d="M14 8 L46 30 L14 52 Z" fill="url(#gp-blue)"/>
+  <path d="M14 8 L34 30 L14 52 Z" fill="#FBBC04"/>
+  <path d="M14 8 L24 30 L14 52 Z" fill="#EA4335"/>
+  <path d="M34 30 L46 30 L14 52 Z" fill="#4285F4"/>
+  <path d="M14 8 L24 30 L34 30 Z" fill="#34A853"/>
+</svg>

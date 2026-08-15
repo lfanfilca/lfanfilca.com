@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Cute rabbit mascot">
+  <defs>
+    <linearGradient id="rab-fur" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E2E8F0"/>
+    </linearGradient>
+    <linearGradient id="rab-ear" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FBCFE8"/>
+      <stop offset="100%" stop-color="#FF8FB1"/>
+    </linearGradient>
+  </defs>
+  <!-- Body -->
+  <ellipse cx="100" cy="140" rx="48" ry="40" fill="url(#rab-fur)"/>
+  <ellipse cx="100" cy="150" rx="26" ry="20" fill="#F8FAFC"/>
+  <!-- Head -->
+  <g transform="translate(100 90)">
+    <!-- Ears (long) -->
+    <ellipse cx="-14" cy="-40" rx="8" ry="30" fill="url(#rab-fur)"/>
+    <ellipse cx="14" cy="-40" rx="8" ry="30" fill="url(#rab-fur)"/>
+    <ellipse cx="-14" cy="-38" rx="4" ry="22" fill="url(#rab-ear)"/>
+    <ellipse cx="14" cy="-38" rx="4" ry="22" fill="url(#rab-ear)"/>
+    <!-- Face -->
+    <ellipse cx="0" cy="0" rx="30" ry="28" fill="url(#rab-fur)"/>
+    <!-- Eyes -->
+    <ellipse cx="-10" cy="-2" rx="4" ry="5" fill="#1f0b2b"/>
+    <ellipse cx="10" cy="-2" rx="4" ry="5" fill="#1f0b2b"/>
+    <circle cx="-8" cy="-4" r="1.4" fill="#fff"/>
+    <circle cx="12" cy="-4" r="1.4" fill="#fff"/>
+    <!-- Cheeks -->
+    <circle cx="-18" cy="6" r="3.6" fill="#FF8FA3" opacity="0.6"/>
+    <circle cx="18" cy="6" r="3.6" fill="#FF8FA3" opacity="0.6"/>
+    <!-- Nose -->
+    <path d="M-2 6 L2 6 L0 9 Z" fill="#FF6B9D"/>
+    <!-- Mouth -->
+    <path d="M-4 11 L0 14 L4 11" stroke="#1f0b2b" stroke-width="1.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Buck teeth -->
+    <rect x="-2.5" y="14" width="2" height="3" fill="#fff" stroke="#1f0b2b" stroke-width="0.6"/>
+    <rect x="0.5" y="14" width="2" height="3" fill="#fff" stroke="#1f0b2b" stroke-width="0.6"/>
+  </g>
+  <!-- Paws -->
+  <ellipse cx="80" cy="174" rx="10" ry="6" fill="#E2E8F0"/>
+  <ellipse cx="120" cy="174" rx="10" ry="6" fill="#E2E8F0"/>
+  <!-- Carrot -->
+  <g transform="translate(160 150)">
+    <path d="M0 0 L20 -6 L24 4 L4 10 Z" fill="#FB923C"/>
+    <path d="M-2 -2 L-8 -8" stroke="#16a34a" stroke-width="2" stroke-linecap="round"/>
+    <path d="M0 -4 L-4 -12" stroke="#16a34a" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>

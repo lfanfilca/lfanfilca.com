@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Cute raccoon mascot">
+  <defs>
+    <linearGradient id="rac-fur" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#94A3B8"/>
+      <stop offset="100%" stop-color="#475569"/>
+    </linearGradient>
+  </defs>
+  <!-- Body -->
+  <ellipse cx="100" cy="140" rx="50" ry="40" fill="url(#rac-fur)"/>
+  <ellipse cx="100" cy="148" rx="30" ry="22" fill="#F1F5F9"/>
+  <!-- Tail (striped) -->
+  <g transform="translate(150 130)">
+    <path d="M0 0 Q40 -20 60 0 Q40 30 0 0 Z" fill="url(#rac-fur)"/>
+    <path d="M30 -8 Q40 0 50 -8" stroke="#1f2937" stroke-width="3" fill="none"/>
+    <path d="M25 0 Q40 10 55 0" stroke="#1f2937" stroke-width="3" fill="none"/>
+  </g>
+  <!-- Head -->
+  <g transform="translate(100 90)">
+    <!-- Ears -->
+    <circle cx="-28" cy="-28" r="10" fill="url(#rac-fur)"/>
+    <circle cx="28" cy="-28" r="10" fill="url(#rac-fur)"/>
+    <circle cx="-28" cy="-28" r="5" fill="#FF8FA3"/>
+    <circle cx="28" cy="-28" r="5" fill="#FF8FA3"/>
+    <!-- Face -->
+    <ellipse cx="0" cy="0" rx="34" ry="30" fill="url(#rac-fur)"/>
+    <!-- Mask -->
+    <path d="M-32 -6 Q-20 -10 -8 -4 L-8 8 Q-20 12 -32 6 Z" fill="#1f2937"/>
+    <path d="M32 -6 Q20 -10 8 -4 L8 8 Q20 12 32 6 Z" fill="#1f2937"/>
+    <!-- Snout -->
+    <ellipse cx="0" cy="10" rx="16" ry="11" fill="#F1F5F9"/>
+    <!-- Eyes -->
+    <circle cx="-14" cy="-2" r="3.6" fill="#fff"/>
+    <circle cx="14" cy="-2" r="3.6" fill="#fff"/>
+    <circle cx="-14" cy="-2" r="2" fill="#1f0b2b"/>
+    <circle cx="14" cy="-2" r="2" fill="#1f0b2b"/>
+    <!-- Cheeks -->
+    <circle cx="-22" cy="6" r="3.6" fill="#FF8FA3" opacity="0.5"/>
+    <circle cx="22" cy="6" r="3.6" fill="#FF8FA3" opacity="0.5"/>
+    <!-- Nose -->
+    <ellipse cx="0" cy="6" rx="3" ry="2.2" fill="#1f0b2b"/>
+    <!-- Mouth -->
+    <path d="M-5 12 Q0 16 5 12" stroke="#1f0b2b" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+  </g>
+  <!-- Paws -->
+  <ellipse cx="80" cy="174" rx="10" ry="6" fill="#475569"/>
+  <ellipse cx="120" cy="174" rx="10" ry="6" fill="#475569"/>
+</svg>

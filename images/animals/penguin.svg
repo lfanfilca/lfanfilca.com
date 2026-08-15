@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Cute penguin mascot">
+  <defs>
+    <linearGradient id="pen-back" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+  </defs>
+  <!-- Body (egg shape) -->
+  <ellipse cx="100" cy="115" rx="50" ry="65" fill="url(#pen-back)"/>
+  <!-- Belly -->
+  <ellipse cx="100" cy="130" rx="32" ry="48" fill="#F8FAFC"/>
+  <!-- Head blend -->
+  <ellipse cx="100" cy="75" rx="40" ry="36" fill="url(#pen-back)"/>
+  <!-- Face white mask -->
+  <ellipse cx="100" cy="78" rx="28" ry="24" fill="#F8FAFC"/>
+  <!-- Eyes -->
+  <circle cx="86" cy="72" r="4.5" fill="#1f0b2b"/>
+  <circle cx="114" cy="72" r="4.5" fill="#1f0b2b"/>
+  <circle cx="87.5" cy="70" r="1.6" fill="#fff"/>
+  <circle cx="115.5" cy="70" r="1.6" fill="#fff"/>
+  <!-- Cheeks -->
+  <circle cx="80" cy="86" r="4" fill="#FF8FA3" opacity="0.7"/>
+  <circle cx="120" cy="86" r="4" fill="#FF8FA3" opacity="0.7"/>
+  <!-- Beak -->
+  <path d="M90 90 L110 90 L100 102 Z" fill="#FB923C"/>
+  <path d="M100 102 L100 106" stroke="#FB923C" stroke-width="2"/>
+  <!-- Wings -->
+  <ellipse cx="56" cy="120" rx="10" ry="32" fill="url(#pen-back)" transform="rotate(-10 56 120)"/>
+  <ellipse cx="144" cy="120" rx="10" ry="32" fill="url(#pen-back)" transform="rotate(10 144 120)"/>
+  <!-- Feet -->
+  <ellipse cx="84" cy="178" rx="14" ry="6" fill="#FB923C"/>
+  <ellipse cx="116" cy="178" rx="14" ry="6" fill="#FB923C"/>
+</svg>
